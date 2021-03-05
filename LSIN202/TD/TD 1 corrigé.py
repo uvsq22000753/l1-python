@@ -2,6 +2,8 @@ import tkinter as tk
 import PIL as pil
 from PIL import Image
 from PIL import ImageTk 
+from tkinter import filedialog
+from tkinter import simpledialog
 
 HEIGHT = 300
 WIDTH = 300
