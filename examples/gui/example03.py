@@ -19,4 +19,5 @@ if __name__ == '__main__':
     # Fin de votre code
 
     canvas.pack()
+
     root.mainloop()

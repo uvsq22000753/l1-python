@@ -16,9 +16,9 @@ if __name__ == '__main__':
     root.columnconfigure(0, weight = 1)
     root.rowconfigure(0, weight = 1)
 
-    canvas = Canvas(root)
-    canvas.grid(column=0, row=0, sticky=(N, W, E, S))
-    canvas.bind("<Button-1>", xy)
-    canvas.bind("<B1-Motion>", addLine)
+canvas = Canvas(root)
+canvas.grid(column=0, row=0, sticky=(N, W, E, S))
+canvas.bind("<Button-1>", xy)
+canvas.bind("<B1-Motion>", addLine)
 
-    root.mainloop()
+root.mainloop()

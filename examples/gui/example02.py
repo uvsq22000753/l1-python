@@ -18,7 +18,7 @@ class MonDessin(Canvas):
         self.lastx, self.lasty = event.x, event.y
 
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
     root = Tk()
     root.columnconfigure(0, weight = 1)
     root.rowconfigure(0, weight = 1)
